@@ -46,5 +46,7 @@
                 "UBLInvoice": "Ismailua\\UblTrInvoice\\Facades\\UBLInvoice"
             }
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
