@@ -22,7 +22,7 @@
         "php": "^8.0",
         "illuminate/support": "^9.0|^10.0",
         "ramsey/uuid": "^4.0",
-        "ismailua/ubltr-invoice": "^1.0"
+        "ismailua/ubltr-invoice": "^1.0.0"
     },
     "require-dev": {
         "orchestra/testbench": "^7.0|^8.0",
