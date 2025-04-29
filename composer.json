@@ -1,0 +1,43 @@
+{
+    "name": "ismailua/ubltr-invoice",
+    "description": "A Laravel package for generating UBL-TR compliant XML invoices",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "İsmail ÇAKIR",
+            "email": "ismailua@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^9.0|^10.0",
+        "ramsey/uuid": "^4.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^7.0|^8.0",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ismailua\\UblTrInvoice\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ismailua\\UblTrInvoice\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ismailua\\UblTrInvoice\\UBLInvoiceServiceProvider"
+            ],
+            "aliases": {
+                "UBLInvoice": "Ismailua\\UblTrInvoice\\Facades\\UBLInvoice"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
