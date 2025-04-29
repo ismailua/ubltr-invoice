@@ -1,10 +1,10 @@
 <?php
 
 namespace Ismailua\UblTrInvoice\Models\UblInvoice;
-
+use Illuminate\Database\Eloquent\Model;
 use Ramsey\Uuid\Uuid;
 
-class Invoice
+class Invoice extends Model
 {
     public string $ublVersionId = '2.1';
     public string $customizationId = 'TR1.2';

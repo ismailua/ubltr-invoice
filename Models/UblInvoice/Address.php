@@ -1,8 +1,9 @@
 <?php
 
 namespace Ismailua\UblTrInvoice\Models\UblInvoice;
+use Illuminate\Database\Eloquent\Model;
 
-class Address
+class Address extends Model
 {
     public ?string $room = null;
     public ?string $streetName = null;

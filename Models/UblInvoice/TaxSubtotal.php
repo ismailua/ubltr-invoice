@@ -1,8 +1,8 @@
 <?php
 
 namespace Ismailua\UblTrInvoice\Models\UblInvoice;
-
-class TaxSubtotal
+use Illuminate\Database\Eloquent\Model;
+class TaxSubtotal extends Model
 {
     public float $taxableAmount;
     public float $taxAmount;

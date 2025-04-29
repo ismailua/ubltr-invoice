@@ -1,8 +1,9 @@
 <?php
 
 namespace Ismailua\UblTrInvoice\Models\UblInvoice;
+use Illuminate\Database\Eloquent\Model;
 
-class Contact
+class Contact extends Model
 {
     public ?string $telephone = null;
     public ?string $telefax = null;

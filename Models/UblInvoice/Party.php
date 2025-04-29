@@ -1,8 +1,8 @@
 <?php
 
 namespace Ismailua\UblTrInvoice\Models\UblInvoice;
-
-class Party
+use Illuminate\Database\Eloquent\Model;
+class Party extends Model
 {
     public ?string $websiteUri = null;
     public array $partyIdentifications = [];

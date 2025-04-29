@@ -1,8 +1,8 @@
 <?php
 
 namespace Ismailua\UblTrInvoice\Models\UblInvoice;
-
-class Price
+use Illuminate\Database\Eloquent\Model;
+class Price extends Model
 {
     public float $priceAmount;
 

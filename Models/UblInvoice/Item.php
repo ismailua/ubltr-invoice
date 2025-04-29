@@ -1,8 +1,9 @@
 <?php
 
 namespace Ismailua\UblTrInvoice\Models\UblInvoice;
+use Illuminate\Database\Eloquent\Model;
 
-class Item
+class Item extends Model
 {
     public ?string $description = null;
     public string $name;

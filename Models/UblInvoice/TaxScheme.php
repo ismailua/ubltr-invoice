@@ -1,8 +1,8 @@
 <?php
 
 namespace Ismailua\UblTrInvoice\Models\UblInvoice;
-
-class TaxScheme
+use Illuminate\Database\Eloquent\Model;
+class TaxScheme extends Model
 {
     public string $name;
     public string $taxTypeCode;

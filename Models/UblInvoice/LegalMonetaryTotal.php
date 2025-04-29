@@ -1,8 +1,8 @@
 <?php
 
 namespace Ismailua\UblTrInvoice\Models\UblInvoice;
-
-class LegalMonetaryTotal
+use Illuminate\Database\Eloquent\Model;
+class LegalMonetaryTotal extends Model
 {
     public float $lineExtensionAmount;
     public float $taxExclusiveAmount;

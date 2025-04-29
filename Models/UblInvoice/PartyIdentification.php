@@ -1,8 +1,8 @@
 <?php
 
 namespace Ismailua\UblTrInvoice\Models\UblInvoice;
-
-class PartyIdentification
+use Illuminate\Database\Eloquent\Model;
+class PartyIdentification extends Model
 {
     public string $id;
     public string $schemeID;
