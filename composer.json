@@ -3,6 +3,15 @@
     "description": "A Laravel package for generating UBL-TR compliant XML invoices",
     "type": "library",
     "license": "MIT",
+    "keywords": [
+        "Ubl",
+        "Ubl-TR",
+        "Ubl-TR Invoice",
+        "Ubl-TR Invoice Generator",
+        "Ubl-TR Invoice Generator Laravel",
+        "Ubl-TR Invoice Generator Laravel Package",
+        "Ubl-TR Invoice Generator For Laravel"
+    ],
     "authors": [
         {
             "name": "İsmail ÇAKIR",
