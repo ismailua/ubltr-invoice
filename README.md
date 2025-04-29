@@ -5,7 +5,7 @@ A Laravel package for generating UBL-TR compliant XML invoices
 
 1. Install the package via Composer:
 ```bash
-composer require ismailua/ubltr-invoice:^1.0
+composer require ismailua/ubltr-invoice
 ```
 
 2. Publish the configuration file:
